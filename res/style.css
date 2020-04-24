@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+#Top {
+    position: absolute;
+    background-color: #00ffcc;
+    width: 100%;
+    height: 300px;
+    top: 0;
+    left: 0;
+}
+
+#Menu {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 300px;
+    left: 0;
+    background-color: #2d2d2d;
+    text-align: center;
+}
+
+#Menu ul {
+    margin: 0;
+}
+
+#Menu ul li {
+    list-style: none;
+    color: white;
+    background-color: #2d2d2d;
+    float: right;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+}
+
+#Menu .menuLink {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 200px;
+}
+#Menu .menuLink:hover {
+    color: red;
+    background-color: #4d4d4d;
+}
+
+#Bottom {
+    position: absolute;
+    height: 100%;
+    top: 400px;
+    left: 400px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+#Profile {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    height: auto;
+    float:left;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+#right_banner {
+    position: absolute;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    z-index: 3;
+    width: 250px;
+}
+
+/* 기타 추가 css */
+#name {
+    margin-top: 0;
+}
