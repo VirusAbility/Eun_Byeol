@@ -44,9 +44,12 @@
     background-color: #4d4d4d;
 }
 
+#SubContent {
+    width: 100%;
+}
+
 #Bottom {
     position: absolute;
-    height: 100%;
     top: 400px;
     left: 400px;
     font-family: 'Do Hyeon', sans-serif;
